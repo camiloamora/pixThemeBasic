@@ -1,0 +1,24 @@
+//Variables
+
+//colors palette
+$primary-color:hsl(205,80,60);
+$secondary-color:hsl(0,10,10);
+
+//fonts size
+$xl: 24px;
+$l: 20px;
+$m: 16px;
+$s: 13px;
+$xs: 11px;
+
+//layout
+$gutter:16px;
+$max-width:1100px;
+
+@import 'base/normalize';
+@import 'layout/layout';
+@import 'theme/header';
+@import 'modules/modules';
+@import 'base/base';
+@import 'theme/menu';
+@import 'theme/banner';
